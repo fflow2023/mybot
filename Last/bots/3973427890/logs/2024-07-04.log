@@ -1,0 +1,593 @@
+[0m2024-07-04 21:15:48 V/Net 3973427890: Invalidate caches because hash file not available.[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: No server list cached.[0m
+[92m2024-07-04 21:15:48 I/Net 3973427890: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2024-07-04 21:15:48 I/Net 3973427890: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2024-07-04 21:15:48 I/Net 3973427890: Successfully fetched ecdh public key from server.[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: [AuthControl/acquire] Acquiring auth method[0m
+[96m2024-07-04 21:15:48 D/Net 3973427890: [AuthControl/acquire] Authorization responded: QRCode[0m
+[96m2024-07-04 21:15:48 D/Net 3973427890: requesting qrcode.[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:48 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:48 D/Net 3973427890: qrcode state changed: WAITING_FOR_SCAN[0m
+[0m2024-07-04 21:15:48 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:53 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:15:53 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:53 D/Net 3973427890: qrcode state changed: WAITING_FOR_CONFIRM[0m
+[0m2024-07-04 21:15:53 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:58 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:15:58 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[96m2024-07-04 21:15:58 D/Net 3973427890: qrcode state changed: CONFIRMED[0m
+[0m2024-07-04 21:15:58 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[0m2024-07-04 21:15:58 V/Net 3973427890: Send: wtlogin.login(9:qrcode-login)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: [AuthControl/resume] Fire auth completed[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: wtlogin.login[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: StatSvc.register(online)[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Server time updated, serverTime: 1720098959, diff: 0ms=0.0s[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: StatSvc.register[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: No BdhSession cache[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Syncing friend message history...[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Start loading friend list...[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Start loading stranger list...[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Start loading friendGroup list...[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: OidbSvc.0x5d2_0[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Successfully loaded stranger list: 0 in total[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Online OtherClients: V2301A(MOBILE)[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Start loading group list...[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: OidbSvc.0x496[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Loading friend list: 3/3[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Successfully loaded friend list: 3 in total[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Loading friendGroup list: 1/1[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Successfully loaded friendGroup list: 1 in total[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: friendlist.GetTroopListReqV2[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[91m2024-07-04 21:15:59 E/Net 3973427890: Could not determine uin for new stranger[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Successfully loaded group list: 1 in total.[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Syncing friend message history: Success.[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2024-07-04 21:15:59 I/Net 3973427890: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2024-07-04 21:15:59 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:00 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:16:02 V/Net 3973427890: Server list: 111.31.206.48:80, 39.156.125.20:443, 111.30.187.201:8080, 36.155.205.252:8080, 39.156.140.250:8080, 36.155.207.230:80, 36.155.163.66:14000, 120.232.65.165:80, 120.241.130.195:80, msfwifi.3g.qq.com:8080.[0m
+[0m2024-07-04 21:16:02 V/Net 3973427890: No BdhSession to save to cache[0m
+[0m2024-07-04 21:16:02 V/Net 3973427890: Saving server list to cache[0m
+[0m2024-07-04 21:16:02 V/Net 3973427890: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2024-07-04 21:16:02 V/Net 3973427890: Recv: ConfigPushSvc.PushReq[0m
+[0m2024-07-04 21:16:17 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:17 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:16:27 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:27 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:16:27 V/Net 3973427890: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2024-07-04 21:16:27 V/Net 3973427890: Recv: ImgStore.GroupPicUp[0m
+[0m2024-07-04 21:16:27 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:28 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:16:34 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:35 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:16:35 V/Net 3973427890: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2024-07-04 21:16:35 V/Net 3973427890: Recv: ImgStore.GroupPicUp[0m
+[0m2024-07-04 21:16:35 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:16:35 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:17:44 V/Net 3973427890: Send: StatSvc.register(offline)[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Validated caches.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Loading server list from cache.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Server list: 111.31.206.48:80, 39.156.125.20:443, 111.30.187.201:8080, 36.155.205.252:8080, 39.156.140.250:8080, 36.155.207.230:80, 36.155.163.66:14000, 120.232.65.165:80, 120.241.130.195:80, msfwifi.3g.qq.com:8080.[0m
+[92m2024-07-04 21:38:59 I/Net 3973427890: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2024-07-04 21:38:59 I/Net 3973427890: ECDH key is valid.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Recv: wtlogin.exchange_emp[0m
+[93m2024-07-04 21:38:59 W/Net 3973427890: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+[0m
+[92m2024-07-04 21:38:59 I/Net 3973427890: ECDH key is valid.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: [AuthControl/acquire] Acquiring auth method[0m
+[96m2024-07-04 21:38:59 D/Net 3973427890: [AuthControl/acquire] Authorization responded: QRCode[0m
+[96m2024-07-04 21:38:59 D/Net 3973427890: requesting qrcode.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:38:59 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:38:59 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:38:59 D/Net 3973427890: qrcode state changed: WAITING_FOR_SCAN[0m
+[96m2024-07-04 21:39:04 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:39:04 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:39:05 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:39:05 D/Net 3973427890: qrcode state changed: WAITING_FOR_CONFIRM[0m
+[96m2024-07-04 21:39:10 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:39:10 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:39:10 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:39:15 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 21:39:15 D/Net 3973427890: qrcode state changed: CONFIRMED[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: wtlogin.login(9:qrcode-login)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: wtlogin.login[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: [AuthControl/resume] Fire auth completed[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: StatSvc.register(online)[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Server time updated, serverTime: 1720100355, diff: 0ms=0.0s[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: StatSvc.register[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: No BdhSession cache[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Syncing friend message history...[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Start loading friend list...[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Start loading stranger list...[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Start loading friendGroup list...[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: OidbSvc.0x5d2_0[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Successfully loaded stranger list: 0 in total[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Online OtherClients: V2301A(MOBILE)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: OidbSvc.0x496[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Start loading group list...[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Loading friend list: 3/3[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Successfully loaded friend list: 3 in total[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 21:39:15 V/Net 3973427890: Loading friendGroup list: 1/1[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Successfully loaded friendGroup list: 1 in total[0m
+[92m2024-07-04 21:39:15 I/Net 3973427890: Syncing friend message history: Success.[0m
+[0m2024-07-04 21:39:16 V/Net 3973427890: Recv: friendlist.GetTroopListReqV2[0m
+[0m2024-07-04 21:39:16 V/Net 3973427890: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2024-07-04 21:39:16 V/Net 3973427890: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2024-07-04 21:39:16 I/Net 3973427890: Successfully loaded group list: 1 in total.[0m
+[92m2024-07-04 21:39:16 I/Net 3973427890: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2024-07-04 21:39:16 I/Net 3973427890: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2024-07-04 21:39:16 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:39:16 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Server list: msfwifi.3g.qq.com:8080, 120.232.65.165:80, 36.155.205.230:14000, 36.155.163.117:80, 120.241.130.195:80, 39.156.126.229:443, 39.156.140.102:8080, 111.30.187.201:80, 111.30.182.254:14000, 120.232.65.165:14000.[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: No BdhSession to save to cache[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Saving server list to cache[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Recv: ConfigPushSvc.PushReq[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Saving bdh session to cache[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2024-07-04 21:39:18 V/Net 3973427890: Recv: ConfigPushSvc.PushReq[0m
+[0m2024-07-04 21:39:33 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 21:39:34 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 21:39:36 V/Net 3973427890: Send: StatSvc.register(offline)[0m
+[0m2024-07-04 23:54:29 V/Net 3973427890: Validated caches.[0m
+[0m2024-07-04 23:54:29 V/Net 3973427890: Loading server list from cache.[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Server list: msfwifi.3g.qq.com:8080, 120.232.65.165:80, 36.155.205.230:14000, 36.155.163.117:80, 120.241.130.195:80, 39.156.126.229:443, 39.156.140.102:8080, 111.30.187.201:80, 111.30.182.254:14000, 120.232.65.165:14000.[0m
+[92m2024-07-04 23:54:30 I/Net 3973427890: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2024-07-04 23:54:30 I/Net 3973427890: ECDH key is valid.[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Recv: wtlogin.exchange_emp[0m
+[93m2024-07-04 23:54:30 W/Net 3973427890: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+[0m
+[92m2024-07-04 23:54:30 I/Net 3973427890: ECDH key is valid.[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: [AuthControl/acquire] Acquiring auth method[0m
+[96m2024-07-04 23:54:30 D/Net 3973427890: [AuthControl/acquire] Authorization responded: QRCode[0m
+[96m2024-07-04 23:54:30 D/Net 3973427890: requesting qrcode.[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 23:54:30 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[0m2024-07-04 23:54:30 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 23:54:30 D/Net 3973427890: qrcode state changed: WAITING_FOR_SCAN[0m
+[96m2024-07-04 23:54:35 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 23:54:35 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[96m2024-07-04 23:54:35 D/Net 3973427890: qrcode state changed: WAITING_FOR_CONFIRM[0m
+[0m2024-07-04 23:54:35 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[96m2024-07-04 23:54:40 D/Net 3973427890: querying qrcode state.[0m
+[0m2024-07-04 23:54:40 V/Net 3973427890: Send: wtlogin.trans_emp[0m
+[96m2024-07-04 23:54:40 D/Net 3973427890: qrcode state changed: CONFIRMED[0m
+[0m2024-07-04 23:54:40 V/Net 3973427890: Recv: wtlogin.trans_emp[0m
+[0m2024-07-04 23:54:40 V/Net 3973427890: Send: wtlogin.login(9:qrcode-login)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Recv: wtlogin.login[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: [AuthControl/resume] Fire auth completed[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: StatSvc.register(online)[0m
+[92m2024-07-04 23:54:41 I/Net 3973427890: Server time updated, serverTime: 1720108480, diff: -1ms=-0.001s[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Recv: StatSvc.register[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Loading BdhSession from cache file[0m
+[92m2024-07-04 23:54:41 I/Net 3973427890: Syncing friend message history...[0m
+[92m2024-07-04 23:54:41 I/Net 3973427890: Start loading friend list...[0m
+[92m2024-07-04 23:54:41 I/Net 3973427890: Start loading stranger list...[0m
+[92m2024-07-04 23:54:41 I/Net 3973427890: Start loading friendGroup list...[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Send: StatSvc.RspMSFForceOffline(StatSvc.RspMSFForceOffline)[0m
+[0m2024-07-04 23:54:41 V/Net 3973427890: Recv: StatSvc.ReqMSFOffline[0m
+[93m2024-07-04 23:54:41 W/Net 3973427890: An exception was thrown during 'loading groups' of Bot 3973427890. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	... 22 more
+[0m
+[93m2024-07-04 23:54:41 W/Net 3973427890: An exception was thrown during 'loading OtherClients' of Bot 3973427890. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	... 22 more
+[0m
+[93m2024-07-04 23:54:41 W/Net 3973427890: An exception was thrown during 'loading otherClients' of Bot 3973427890. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	... 22 more
+[0m
+[93m2024-07-04 23:54:41 W/Net 3973427890: An exception was thrown during 'loading friends' of Bot 3973427890. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	... 22 more
+[0m
+[93m2024-07-04 23:54:41 W/Net 3973427890: An exception was thrown during 'loading friendGroups' of Bot 3973427890. Trying to ignore the error and continue logging in...
+StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	... 22 more
+[0m
+[91m2024-07-04 23:54:41 E/Net 3973427890: Exception in coroutine 'unnamed'
+MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[0m
+[91m2024-07-04 23:54:41 E/Net 3973427890: Exception in coroutine 'BotInitProcessor.init'
+java.lang.IllegalStateException: Exception in attached Job 'BotInitProcessor.init'
+	at net.mamoe.mirai.internal.network.handler.state.JobAttachStateObserver$stateChanged0$1.invokeSuspend(JobAttachStateObserver.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.decode(StatSvc.kt:299)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:586)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: StateSwitchingException(old=StateLoading, new=StateClosed, cause=MsfOfflineToken(uin=3973427890, seq=3808936737, const=0))
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:108)
+		at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:326)
+		at net.mamoe.mirai.internal.network.protocol.packet.login.StatSvc$ReqMSFOffline.handle(StatSvc.kt:281)
+		at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:105)
+		at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+		at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+		at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+		at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+		at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+		at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+		... 22 more
+	Caused by: [CIRCULAR REFERENCE: MsfOfflineToken(uin=3973427890, seq=3808936737, const=0)]
+[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Validated caches.[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Loading server list from cache.[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Server list: msfwifi.3g.qq.com:8080, 120.232.65.165:80, 36.155.205.230:14000, 36.155.163.117:80, 120.241.130.195:80, 39.156.126.229:443, 39.156.140.102:8080, 111.30.187.201:80, 111.30.182.254:14000, 120.232.65.165:14000.[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: ECDH key is valid.[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: wtlogin.exchange_emp[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: StatSvc.register(online)[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Server time updated, serverTime: 1720108546, diff: 0ms=0.0s[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Loading BdhSession from cache file[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: StatSvc.register[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Syncing friend message history...[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Start loading friend list...[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Start loading friendGroup list...[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Start loading stranger list...[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: OidbSvc.0x5d2_0[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Successfully loaded stranger list: 0 in total[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Online OtherClients: V2301A(MOBILE)[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Start loading group list...[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: OidbSvc.0x496[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Loading friendGroup list: 1/1[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Successfully loaded friendGroup list: 1 in total[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: friendlist.getFriendGroupList[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Loading friend list: 3/3[0m
+[92m2024-07-04 23:55:46 I/Net 3973427890: Successfully loaded friend list: 3 in total[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Recv: friendlist.GetTroopListReqV2[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2024-07-04 23:55:46 V/Net 3973427890: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2024-07-04 23:55:47 V/Net 3973427890: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2024-07-04 23:55:47 V/Net 3973427890: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2024-07-04 23:55:47 I/Net 3973427890: Successfully loaded group list: 2 in total.[0m
+[92m2024-07-04 23:55:47 I/Net 3973427890: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2024-07-04 23:55:47 I/Net 3973427890: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2024-07-04 23:55:47 I/Net 3973427890: Syncing friend message history: Success.[0m
+[0m2024-07-04 23:55:47 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 23:55:47 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 23:55:49 V/Net 3973427890: Server list: 39.156.140.102:8080, 39.156.140.102:8080, 36.155.245.16:14000, msfwifi.3g.qq.com:8080, 39.156.126.178:443, 36.155.197.218:8080, 120.241.130.195:80, 111.30.169.83:80, 36.155.205.252:80, 120.232.31.250:80.[0m
+[0m2024-07-04 23:55:49 V/Net 3973427890: Saving bdh session to cache[0m
+[0m2024-07-04 23:55:49 V/Net 3973427890: Saving server list to cache[0m
+[0m2024-07-04 23:55:49 V/Net 3973427890: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2024-07-04 23:55:49 V/Net 3973427890: Recv: ConfigPushSvc.PushReq[0m
+[0m2024-07-04 23:56:03 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 23:56:04 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 23:59:35 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 23:59:35 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m
+[0m2024-07-04 23:59:58 V/Net 3973427890: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2024-07-04 23:59:59 V/Net 3973427890: Recv: MessageSvc.PbSendMsg[0m

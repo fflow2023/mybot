@@ -1,0 +1,29 @@
+grantedPermissionMap: 
+  '*:*': 
+    - console
+    - u599423132
+  'console:*': 
+    - u599423132
+  'net.mamoe.mirai.console.chat-command:*': 
+    - u599423132
+  'org.itxtech.mcl.addon:*': 
+    - u599423132
+  'xyz.cssxsh.mirai.fix-protocol-version:*': 
+    - u599423132
+  'org.alerhughes.plugin-voodoo:command.vdluck': 
+    - 'u*'
+  'org.alerhughes.plugin-voodoo:command.vdds': 
+    - 'u*'
+  'org.alerhughes.plugin-voodoo:command.vdtarot': 
+    - 'u*'
+  'org.alerhughes.plugin-voodoo:command.sb': 
+    - 'u*'
+  'xyz.catfootbeats.control:command.ctrl': 
+    - 'u*'
+    - u599423132
+  'xyz.catfootbeats.control:*': 
+    - u599423132
+  'Control:admin': 
+    - u599423132
+  'online.ruin_of_future.reporter:command.reporter_list': 
+    - u599423132

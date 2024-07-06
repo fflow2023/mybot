@@ -1,0 +1,15 @@
+[
+    {
+        "role": "system",
+        "content":"一些提示"
+    },
+    {
+        "role": "user",
+        "content":"一些内容"
+    },
+    {
+        "role": "assistant",
+        "content":"希望他的回复"
+    }
+]
+#可以自己添加其他内容，role里的内容user和assistant交替

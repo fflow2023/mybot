@@ -1,0 +1,8 @@
+{
+    "model": "yi-medium",
+    "temperature": 0.8,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "max_tokens": 2048,
+    "Reverse-proxy":"api.lingyiwanwu.com/v1/chat/completions"
+}
